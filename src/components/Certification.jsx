@@ -1,5 +1,5 @@
 import React from 'react'
-import cybersecurity from '../assets/img/cybersecurityCertificate.jpg'
+import cybersecurity from '../assets/img/cybersecurityCertificate.png'
 import pythonCertificate from '../assets/img/pythonCertificate.jpg'
 import sqlCertificate from '../assets/img/sqlCertificate.jpg'
 
