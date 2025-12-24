@@ -5,11 +5,10 @@ const About = () => {
         <section id='about'>
             <img src='/src/assets/img/profile.jpg' alt='profile picture' />
             <h1>Shreyas Vilas Parab</h1>
-            <p>I am a recent software development graduate eager to contribute to your team's success by leveraging my
-                skills in React.js, Java, SQL, JavaScript. With a strong foundation in MongoDB, Git version control, and a
-                keen understanding of effective AI prompting through ChatGPT, I can help accelerate development and
-                deliver efficient, high-quality solutions. I am seeking an entry-level position where I can apply and further
-                develop my skills in a collaborative and fast-paced environment.</p>
+            <p>I am a Full Stack Developer who enjoys building practical, intuitive, and reliable applications. I take pride in 
+solving complex challenges, ensuring accuracy in my work, and collaborating with others to create effective 
+and creative solutions. I am committed to improving my skills and staying updated with the latest 
+advancements in technology.</p>
         </section>
     )
 }

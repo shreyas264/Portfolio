@@ -5,7 +5,7 @@ const Resume = () => {
     <section id='resume'>
       <div className='parent'>
         <h2>Resume</h2>
-        <a href='path to resume' download>Download Resume</a>
+        <a href='/src/assets/pdf/ShreyasParabResume (4).pdf' download>Download Resume</a>
       </div>
     </section>
   )
