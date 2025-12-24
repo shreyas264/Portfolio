@@ -1,4 +1,9 @@
 import React from 'react'
+import cybersecurity from '../assets/img/cybersecurityCertificate.png'
+import pythonCertificate from '../assets/img/pythonCertificate.png'
+import sqlCertificate from '../assets/img/sqlCertificate.png'
+
+
 
 const Certification = () => {
   return (
@@ -6,15 +11,15 @@ const Certification = () => {
       <h2 className='certification-heading'>Certificates</h2>
       <div className='certificate-container'>
         <div className='certificate'>
-          <img src='/src/assets/img/cybersecurityCertificate.png' alt='cybersecurity Certificate' />
+          <img src={cybersecurity} alt='cybersecurity Certificate' />
           <p>CyberSecurity Basics By IBM</p>
         </div>
         <div className='certificate'>
-          <img src='/src/assets/img/pytonCertificate.jpg' alt='Python Certificate' />
+          <img src={pythonCertificate} alt='Python Certificate' />
           <p>Python Basics for DataScience</p>
         </div>
         <div className='certificate'>
-          <img src='/src/assets/img/sqlCertificate.jpg' alt='SQL Certificate' />
+          <img src={sqlCertificate} alt='SQL Certificate' />
           <p>Introduction to SQL</p>
         </div>
         </div>
