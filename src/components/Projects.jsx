@@ -2,7 +2,7 @@ import React from 'react'
 import bookstore from '../assets/img/bookStore.png'
 import chat from '../assets/img/parabChat.png'
 import resumeAnalyzer from '../assets/img/resumeAnalyzer.png'
-
+import aiWritingAssistant from '../assets/img/aiWritingAssistant.png'
 
 const Projects = () => {
   return (
@@ -10,14 +10,19 @@ const Projects = () => {
         <h2>Projects</h2>
         <div className='project-card'>
             <div>
-                <img src={bookstore} alt='bookStore'/>
-                <h3>Book Store MERN</h3>
-                <a href='https://bookstore-mern-77bk.onrender.com' target='blank' rel='noopener noreferrer'>View Project</a>
-            </div>
-            <div>
                 <img src={chat} alt='chat app'/>
                 <h3>Community Chat App</h3>
                 <a href='https://parab-chat-app-frontend.onrender.com' target='blank' rel='noopener noreferrer'>View Project</a>
+            </div>
+            <div>
+                <img src={aiWritingAssistant} alt='ai writing assistant'/>
+                <h3>AI Writing Assistant</h3>
+                <a href='https://ai-writing-assistant-dwyh.onrender.com' target='blank' rel='noopener noreferrer'>View Project</a>
+            </div>
+            <div>
+                <img src={bookstore} alt='bookStore'/>
+                <h3>Book Store MERN</h3>
+                <a href='https://bookstore-mern-77bk.onrender.com' target='blank' rel='noopener noreferrer'>View Project</a>
             </div>
             <div>
                 <img src={resumeAnalyzer} alt='resume analyzer'/>
